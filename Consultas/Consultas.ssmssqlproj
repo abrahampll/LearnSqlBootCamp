@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Consultas">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.13.145:sa">
+          <Created>2021-06-13T17:17:05.162978-05:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.13.145</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01-SELECT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>01-SELECT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02-SELECT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>02-SELECT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03-SELECT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>03-SELECT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04-WHERE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>04-WHERE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05-GROUP-BY.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>05-GROUP-BY.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06-HAVING.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>06-HAVING.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07-ORDER-BY.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>07-ORDER-BY.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08-JOINS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>08-JOINS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09-AND-OR.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>09-AND-OR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10-UNION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>10-UNION.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11-CONJUNTOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>11-CONJUNTOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12-SUBCONSULTA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>12-SUBCONSULTA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13-VIEWS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>13-VIEWS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14-CTE-TABLE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>14-CTE-TABLE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15.-FNC-WINDOW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>15.-FNC-WINDOW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16-METADATOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>16-METADATOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17-DMV.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>17-DMV.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18-EJERCICIO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>18-EJERCICIO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19-EJER-02.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>19-EJER-02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20-FUNCION-BUILT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>20-FUNCION-BUILT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21-CONVERSION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>21-CONVERSION.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22-CONVERSION-CADENA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>22-CONVERSION-CADENA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="23-CONVERTION-FECHA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.13.145:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.13.145</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>23-CONVERTION-FECHA.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

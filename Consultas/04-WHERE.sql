@@ -1,0 +1,59 @@
+SELECT *
+FROM Person.Person
+WHERE FirstName = '    WILSON'
+
+
+/*
+CI = CASE INSENSITIVE
+CS = CASE SENSITIVE
+AS = ACCENT SENTITIVE
+AI = ACCENT INSENTITVE
+*/
+
+
+SELECT *
+FROM Person.Person
+WHERE FirstName = 'WILSON'
+
+SELECT *
+FROM Person.Person
+WHERE FirstName <> 'WILSON'
+
+
+-- QUE COMIENCE CON LA LETRA KE
+SELECT *
+FROM Person.Person
+WHERE FirstName LIKE 'KE%'
+
+-- QUE SE ENCUENTRE LA KE DENTRO DEL FIRSTNAME
+SELECT *
+FROM Person.Person
+WHERE FirstName LIKE '%KE%'
+
+
+-- _ EXPRESA UN CARACTERES Y EL TERCER CARACTERES SEA LETRA
+SELECT *
+FROM Person.Person
+WHERE FirstName LIKE 'KE_%'
+
+-- INICIA CON K Y EL SEGUNDO CARACTER SEA A Ó E
+SELECT *
+FROM Person.Person
+WHERE FirstName LIKE 'K[AE]%'
+
+-- SEA COMO CADENA EL %
+SELECT *
+FROM Person.Person
+WHERE FirstName LIKE '[%]%'
+
+SELECT *
+FROM Person.Person
+WHERE FirstName LIKE '%[_]%'
+
+SELECT *
+FROM Person.Person
+WHERE FirstName NOT LIKE 'KE%'
+
+SELECT *
+FROM Person.Person
+WHERE FirstName NOT IN ('WILSON','KEVIN')
